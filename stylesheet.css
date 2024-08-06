@@ -70,7 +70,7 @@ header {
 /* メイン */
 
 .main-wrapper {
-    padding: 150px 0 150px 0;
+    padding: 150px 0 180px 0;
     background-image: url(./images/background1.png);
     background-size: cover;
     color: rgb(255, 255, 255);
@@ -124,4 +124,30 @@ header {
 
 .btn:hover {
     opacity: 0.8;
+}
+
+/* メイン2 */
+
+.main2 {
+    padding: 150px 0 180px 0;
+    background-color: #56BF8A;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+
+.main2 h1 {
+    font-family: "monomaniac-one", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    float: left;
+}
+
+.main2 p {
+    float: left;
+    
+}
+
+.main2 img {
+    display: inline-block;
+    
 }
