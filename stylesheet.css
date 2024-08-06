@@ -70,9 +70,56 @@ header {
 /* メイン */
 
 .main-wrapper {
-    padding: 180px 0 100px 0;
+    padding: 150px 0 150px 0;
     background-image: url(./images/background1.png);
     background-size: cover;
     color: white;
     text-align: center;
+}
+
+.main {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.main-wrapper h1 {
+    font-size: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+.main-wrapper p {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    line-height: 0px;
+}
+
+.main-wrapper h2 {
+    margin: 0;
+    padding: 0;
+    line-height: 0px;
+}
+
+/* ボタン */
+
+.btn-wrapper {
+    float: right;
+    margin-right: 50px;
+}
+
+.signup {
+    background-color: #0CB8A9;
+}
+
+.btn {
+    padding: 8px 24px;
+    color: white;
+    display: inline-block;
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    opacity: 0.8;
 }
