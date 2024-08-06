@@ -39,7 +39,8 @@ header {
 }
 
 .header-logo {
-    width: 70px;
+    padding-left: 15px;
+    width: 65px;
 }
 
 .header-center {
