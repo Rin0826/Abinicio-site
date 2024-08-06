@@ -1,0 +1,23 @@
+/* タブレット向け */
+@media all and (max-width: 1000px) {
+    
+    .container {
+        max-width: 1000px;
+    }
+    
+}
+
+/* スマートフォン向け */
+@media all and (max-width: 670px) {
+    .container {
+        max-width: 670px;
+    }
+
+    .header-center {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
