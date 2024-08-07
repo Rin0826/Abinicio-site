@@ -157,3 +157,55 @@ header {
     width: 350px;
     float: right;
 }
+
+/* メイン3　*/
+.main3 {
+    padding: 40px 0 130px 0;
+    background-color: #0CB8A9;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h1 {
+    font-family: "monomaniac-one", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.contents {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.content {
+    float: left;
+    width: 33%;
+}
+
+.content-icon {
+    position: relative;
+}
+
+.content-icon p {
+    position: absolute;
+    top: 13px;
+    left: 55px;
+    color: #0CB8A9;
+    font-weight: bold;
+}
+
+.content-icon img {
+    background-color: #E0FE9C;
+    width: 200px;
+    padding: 50px;
+}
+
+.content p {
+    width: 200px;
+    margin: 0 auto;
+}
