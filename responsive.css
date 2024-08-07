@@ -4,6 +4,10 @@
     .container {
         max-width: 1000px;
     }
+
+    .content {
+        width: 50%;
+    }
     
 }
 
@@ -52,4 +56,8 @@
         float: left;
     }
 
+    /* メイン3 */
+    .content {
+        width: 100%;
+    }
 }
