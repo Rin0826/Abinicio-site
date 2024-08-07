@@ -29,9 +29,6 @@ header {
     opacity: 0.8;
     height: 65px;
     width: 100%;
-    /* position: fixed;
-    top: 0;
-    z-index: 10; */
 }
 
 .header-left {
@@ -128,11 +125,20 @@ header {
 
 /* メイン2 */
 
+.clear {
+    clear: left;
+}
+
 .main2 {
     padding: 150px 0 180px 0;
     background-color: #56BF8A;
     background-size: cover;
     color: rgb(255, 255, 255);
+}
+
+.limit2 {
+        width: 300px;
+        float: left;
 }
 
 .main2 h1 {
@@ -148,6 +154,6 @@ header {
 }
 
 .main2 img {
-    display: inline-block;
-    
+    width: 350px;
+    float: right;
 }
